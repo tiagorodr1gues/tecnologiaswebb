@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferenças</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Politécnico ou Faculdade?</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="diferencas.html">Diferenças</a>
+            <a href="vantagens.html" class="active">vantagens</a>
+            <a href="contacto.html">Contacto</a>
+            <button class="theme-button" id="themeToggle"></button>
+        </nav>
+    </header>
+    <main style="padding: 20px;">
+        <section>
+            <h1 style="font-size: 36px; margin-bottom: 20px;">Vantagens de Politécnico e Faculdade</h1>
+            <h3>
+                A escolha entre Politécnico e Universidade é uma decisão importante que pode moldar o futuro profissional do estudante. Ambas as instituições possuem características únicas e oferecem oportunidades enriquecedoras para quem busca qualificação superior. Confira as principais vantagens de cada tipo:
+            </h3>
+
+            <h2 style="font-size: 28px; margin-top: 20px;">Ensino Politécnico</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="margin: 10px 0; font-size: 18px;"><strong>Caráter Prático:</strong> Ensina competências práticas, alinhadas às demandas imediatas do mercado de trabalho.</li>
+                <li style="margin: 10px 0; font-size: 18px;"><strong>Integração com o Setor Industrial:</strong> Possui parcerias estratégicas com empresas locais para facilitar estágios e empregabilidade.</li>
+                <li style="margin: 10px 0; font-size: 18px;"><strong>Programas Intensivos:</strong> Currículos focados na aplicação direta do conhecimento, economizando tempo e formando profissionais rapidamente.</li>
+                <li style="margin: 10px 0; font-size: 18px;"><strong>Cursos Variados:</strong> Oferece opções de formação técnica e especializada, atendendo a setores emergentes e tradicionais.</li>
+            </ul>
+
+            <h2 style="font-size: 28px; margin-top: 20px;">Ensino Universitário</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="margin: 10px 0; font-size: 18px;"><strong>Foco Acadêmico e Científico:</strong> Ideal para quem busca aprofundar conhecimentos teóricos ou desenvolver novas áreas de estudo.</li>
+                <li style="margin: 10px 0; font-size: 18px;"><strong>Ampliação do Horizonte Educacional:</strong> Possibilita uma experiência acadêmica mais ampla, com ênfase no pensamento crítico e interdisciplinar.</li>
+                <li style="margin: 10px 0; font-size: 18px;"><strong>Possibilidade de Pesquisa Avançada:</strong> Um ambiente estimulante para mestrados, doutorados e projetos de pesquisa de ponta.</li>
+                <li style="margin: 10px 0; font-size: 18px;"><strong>Reconhecimento Internacional:</strong> Algumas universidades possuem alta reputação e acordos globais que facilitam oportunidades no exterior.</li>
+            </ul>
+
+            <h2 style="font-size: 28px; margin-top: 20px;">Qual Escolher?</h2>
+            <h2>
+                A escolha entre Politécnico ou Faculdade deve ser orientada pelos seus objetivos de carreira. Quem deseja uma entrada rápida no mercado de trabalho, com habilidades práticas e aplicáveis, pode optar pelo Politécnico. Por outro lado, quem busca um aprofundamento teórico ou deseja explorar pesquisas pode preferir uma Faculdade.
+            </h2>
+            <h2>
+                Em qualquer caso, investir em educação é garantir um futuro com mais oportunidades e crescimento pessoal e profissional.
+            </h2>
+        </section>
+        <aside style="margin-top: 30px;">
+            <h2 style="font-size: 28px;">Dicas para Escolha</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="margin: 10px 0; font-size: 18px;">Analise o mercado de trabalho na sua área de interesse.</li>
+                <li style="margin: 10px 0; font-size: 18px;">Considere o tipo de ensino que melhor se adapta ao seu estilo de aprendizado.</li>
+                <li style="margin: 10px 0; font-size: 18px;">Converse com profissionais formados em Politécnicos e Faculdades para entender as diferenças.</li>
+                <li style="margin: 10px 0; font-size: 18px;">Avalie as opções de estágio, pesquisa e internacionalização oferecidas pela instituição.</li>
+            </ul>
+        </aside>
+    </main>
+    <footer class="bg-light py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <p>&copy; 2025 Politécnico ou Faculdade. Todos os direitos reservados.</p>
+            </div>
+            <div class="col-md-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.361621798415!2d-8.743934811145053!3d41.3662274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd244419ac8a36b3%3A0x9219b42064878c38!2sSchool%20of%20Media%20Arts%20and%20Design!5e0!3m2!1sen!2spt!4v1737549291800!5m2!1sen!2spt" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script>
+        document.getElementById('themeToggle').addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            if (document.body.classList.contains('dark-theme')) {
+                document.getElementById('themeToggle').textContent = '☀️'; 
+            } else {
+                document.getElementById('themeToggle').textContent = '🌑'; 
+            }
+        });
+    </script>
+</body>
+</html>

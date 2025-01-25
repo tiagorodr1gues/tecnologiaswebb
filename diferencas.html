@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferenças</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Politécnico ou Faculdade?</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="diferencas.html" class="active">Diferenças</a>
+            <a href="vantagens.html">Vantagens</a>
+            <a href="contacto.html">Contacto</a>
+            <button class="theme-button" id="themeToggle"></button>
+        </nav>
+    </header>
+    <main>
+        <section class="diferencas">
+            <div class="diferencas-content">
+                <div class="Semelhanças">
+                    <div class="SeD"><h1><strong>Semelhanças e diferenças:</strong></h1></div></br>
+                    </br>
+                    <h2>As instituições possuem planos de estudo quase idênticos. A entrada é feita da mesma
+                        forma, através do Concurso Nacional de Acesso.</br> 
+                        O diploma tem o mesmo valor, seja obtido numa Universidade ou num Instituto Politécnico, com reconhecimento equivalente no mercado.
+                    </h2>
+                </div></br>
+                </br>
+                <div class="Escolher">
+                    <div class="E"><h2><strong>Escolher é essencial:</strong></h2></div></br> 
+                    <h2> A principal diferença é que os  Politécnicos têm maior ênfase em prática e estágio,</br> 
+                        enquanto as Universidades tendem a investir mais na teoria e na pesquisa </br> 
+                        científica.
+                    </h2>
+                </div></br>
+                </br>
+                <div class="Quais">
+                    <div class="QSD"><h2><strong>Quais são as diferenças? </strong></h2></div></br>
+                    <h2>Embora as diferenças sejam pequenas, existem algumas características</br>  
+                       que distinguem os Politécnicos das Universidades:
+                    </h2>
+                </div></br>
+                </br>
+                <div class="Politécnicos"><strong>
+                    <div class="P"><h2><strong>Politécnicos:</strong></h2></div></br>
+                    <h1>Um instituto politécnico é uma instituição de ensino superior que  
+                       oferece formação técnica</br> e científica em diversas áreas aplicadas, 
+                       como engenharia, tecnologia, ciências da saúde,</br> gestão, artes e outras  
+                       disciplinas práticas. O foco principal dos institutos politécnicos é </br>
+                       fornecer um ensino mais orientado para o mercado de trabalho, com 
+                       ênfase na aplicação </br>prática do conhecimento.
+                    </h1>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <p>&copy; 2025 Politécnico ou Faculdade. Todos os direitos reservados.</p>
+            </div>
+            <div class="col-md-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.361621798415!2d-8.743934811145053!3d41.3662274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd244419ac8a36b3%3A0x9219b42064878c38!2sSchool%20of%20Media%20Arts%20and%20Design!5e0!3m2!1sen!2spt!4v1737549291800!5m2!1sen!2spt" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script>
+        document.getElementById('themeToggle').addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            if (document.body.classList.contains('dark-theme')) {
+                document.getElementById('themeToggle').textContent = '☀️'; 
+            } else {
+                document.getElementById('themeToggle').textContent = '🌑'; 
+            }
+        });
+    </script>
+</body>
+</html>
